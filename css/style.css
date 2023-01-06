@@ -1,0 +1,39 @@
+.estra-logo{
+    position: relative;
+    width:15% ;
+    height: 15%;
+    top:10px;
+    left: 3%;
+
+}
+.header-nav-list{
+    display:flex;
+    justify-content:flex-end;
+    position: relative;
+    bottom:15px;
+}
+.header-nav-item{
+    position:relative;
+    margin-right:25px
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+.firstview{
+    position:relative;
+    top: 20px;
+    left: 40%;
+    width:60%;
+    z-index: 0;
+}
+
+.first-title{
+    position: relative;
+    font-family: 'Indie Flower', cursive;
+    font-size: 5rem;
+    z-index: 1;
+    left: 20%;
+    bottom: 5vh;
+}
