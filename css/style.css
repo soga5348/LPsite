@@ -1,5 +1,5 @@
 .estra-logo{
-    position: relative;
+    margin:2% 0 0 2%;
     width:15% ;
     height: 15%;
     top:10px;
@@ -9,11 +9,8 @@
 .header-nav-list{
     display:flex;
     justify-content:flex-end;
-    position: relative;
-    bottom:15px;
 }
 .header-nav-item{
-    position:relative;
     margin-right:25px
 }
 .header-nav-item > a{
