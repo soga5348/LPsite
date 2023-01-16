@@ -25,7 +25,6 @@ margin:10% 0 0 0;
     top: 20px;
     left: 40%;
     width:60%;
-    height: auto;
     z-index: 0;
 }
 
@@ -69,6 +68,7 @@ color:darkcyan;
 
 .news-part{
     margin:30% 0 0 30%;
+    white-space:nowrap;
 }
 
 
@@ -187,15 +187,15 @@ color:darkcyan;
     line-height: 30px;
     color:gray;
     max-width: 3000px;
-    overflow:hidden;
     z-index: 1;
 
 }
 
 .about-jpg{
     bottom:80px;
-    width:23%;
-    left:57%;
+    width:400px;
+    height:auto;
+    left:10%;
 }
 
 .service-content{
@@ -269,7 +269,8 @@ color:darkcyan;
     grid-column: 2/3;
     grid-row: 1/2;
     background-color:#CC6699;
-    overflow: hidden
+    overflow: hidden;
+    white-space: nowrap;
  }
 
  .service2 > img{
@@ -289,7 +290,7 @@ color:darkcyan;
     color:white;
     font-size: 17px;
     font-weight: bold;
-    margin-left:40%;
+    margin-left:35%;
     margin-top:-20%;
 
 }
@@ -298,15 +299,16 @@ color:darkcyan;
     left:40%;
     bottom: 40%;
     color:white;
-    font-size:16px;
+    font-size:15px;
     line-height:normal;
-    margin-left:40%;
+    margin-left:35%;
     margin-top:5%;
 }
  
 
  .service3{
     background-color: #cc8fb8;
+    white-space: nowrap;
  }
 
  .service3 > img{
@@ -322,21 +324,21 @@ color:darkcyan;
 
  
  .service3 > h3{
-    left:40%;
+    left:35%;
     color:white;
     font-size: 17px;
     font-weight: bold;
     bottom:55%;
-    margin-left:40%;
+    margin-left:35%;
     margin-top:-20%;
 
  }
 
 
  .service-text3{
-    font-size: 16px;
+    font-size: 15px;
     color:white;
-    margin-left:40%;
+    margin-left:35%;
     line-height: normal;
     margin-top:5%;
 
@@ -460,13 +462,18 @@ color:darkcyan;
     padding-top:10%;
  }
 
+ .blog_under-contents2{
+    display: flex;
+    justify-content: space-around;
+    margin:10% 0 0 0;
+ }
+
 
  .blog-date{
     color:grey; 
     top:70px;
     left:6%;
     font-size:80%;
-    margin:10% 0 0 8%;
  }
 
  .blog-hashtag{
@@ -474,7 +481,6 @@ color:darkcyan;
     top:57px;
     left:60%;
     font-size:80%;
-    margin:-4% 0 50% 55%;
  }
 
  .blog-allpage{
@@ -639,14 +645,15 @@ color:darkcyan;
     background-color: whitesmoke;
     color:grey;
     top:200px;
-    padding:2% 150% 2% 38.5%;
+    padding:2% 0 2% 0;
     white-space: nowrap;
     right:12%;
+    width:100%;
 
 }
 
 small{
-    margin-left:20%;
+    margin-left:40%;
 }
 
 
