@@ -408,7 +408,7 @@ color:darkcyan;
     background-color: mediumvioletred;
     font-size:100%;
     padding: 2% 5% 2% 5%;
-    bottom:91.5%;
+    bottom:90.8%;
 
     
 
@@ -550,45 +550,46 @@ color:darkcyan;
     position: relative;
     display: flex;
     flex-direction: row;
-    top:250px;
+    top:200px;
     width: 100%;
 }
 
 .recruit-png{
-    position: absolute;
+    position: relative;
     width:50%;
 }
 
 .recruit-info{
-    margin:11% 10% 10% 20%;
+    position: absolute;
     white-space: nowrap;
     color:white;
     font-weight:bold;
     font-size: 150%;
-    left:50%;
+    left:20%;
+    top:45%;
     z-index: 1;
 }
 
 .interview{
-    position: absolute;
+    position: relative;
     width:50%;
-    left:50%;
 }
 
 .worker-interview{
-    margin:11% 10% 10% 35%;
+    position:absolute;
     white-space: nowrap;
     color:white;
     font-weight:bold;
     font-size: 150%;
     z-index: 1;
+    left:67.5%;
+    top:45%;
 }
 
 .contact-part{
-    position: relative;
     top:100px;
     white-space: nowrap;
-    left:31.5%;
+    margin:10% 0 0 35%;
 }
 
 .contact-guide{
@@ -615,8 +616,8 @@ color:darkcyan;
     position:absolute;
     content: "";
     display: block;
-    width: 60%;
-    height:60%;
+    width: 80%;
+    height:80%;
     border-left: 4px solid #FF3399;
     margin-top:50%;
     left:50%;
@@ -631,8 +632,9 @@ color:darkcyan;
     text-decoration: none;
     left:10%;
     margin-top: 0.25%;
+    font-size:large;
     color: white;
-    padding:2% 5% 2% 5%;
+    padding:3% 7% 3% 7%;
     border-radius: 40px;
     background: linear-gradient(to right ,hotpink ,mediumvioletred  );
     box-shadow: 0 5px 0 mediumvioletred /* 影の太さ・色 */
