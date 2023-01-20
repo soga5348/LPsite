@@ -30,7 +30,7 @@ margin:10% 0 0 0;
 
 .all-first-title{
     position: absolute;
-    bottom:30%;
+    bottom:45%;
     left:20%;
 }
 
@@ -77,51 +77,71 @@ color:darkcyan;
     color:mediumvioletred;
     left:25%;
     margin-bottom: 1%;;
-    margin-left: 24%;
+    margin-left: 20%;
 
 }
 
 .news-list::before{
     content: "";
     display: block;
-    width: 140.5%;
+    width: 151%;
     height: 0;
-    border-bottom: 2px solid darkgray;
+    border-bottom: 2px solid gray;
     margin-top:5%;
-    margin-bottom: 4%;
+    margin-bottom: 7%;
 }
 
 .news-title{
     top: 405px;
-    margin-left: 24%;
+    margin-left: 20%;
     color:gray;
+    font-weight: bold;
     font-family: 'Roboto', sans-serif;
 
 }
 
 .news-contents{
-    display:flex;
-    justify-content: center;
-    width:70%;
-    margin-left: 10%;
-
 }
 
 .news-list::after{
     content: "";
     display: block;
-    width: 140.5%;
+    width: 151%;
     height: 0;
-    border-bottom: 2px solid darkgrey;
+    border-bottom: 2px solid grey;
     top:30px;
+    margin-top: 4%;
 }
 
 .news-list{
     margin-top: 7%;
     top: 50px;
-    left:30%;
-    width:60%;
+    width: 40%;
+    margin-left:20%;
+
     
+}
+
+.news-text{
+    text-decoration: none;
+    list-style:none;
+    color: darkgrey;
+    margin:0 0 3% 0;
+    border-bottom: 2px solid darkgray;
+    width:151%;
+    padding-bottom: 3%;
+}
+
+.news-link{
+    position: relative;
+    bottom: 50%;
+    border-bottom: 2px solid darkgray;
+    color: white;
+    background-color: mediumvioletred;
+    padding:0.5% 3%;
+    border-radius: 15px;
+    text-decoration: none;
+
 }
 
 .news-date{
@@ -585,8 +605,10 @@ color:darkcyan;
 
 .company-item{
     padding-right: 400px;
+    padding-left:40px;
     white-space: nowrap;
     border:2px solid gainsboro;
+    
 }
 
 .under-image{
@@ -697,7 +719,7 @@ color:darkcyan;
 }
 
 small{
-    margin-left:40%; /*  */
+    margin-left:40%; /*  *//*  */
 
 }
 
